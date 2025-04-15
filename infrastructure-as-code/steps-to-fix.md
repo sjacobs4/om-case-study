@@ -1,7 +1,9 @@
 # Add steps/actions here:
 
-1. step 1
+1. Add code to main.tf
 
-2. step 2
+2. create provider.tf file
 
-3. etc
+3. install terraform
+
+4. run the commands to build terraform init / terraform plan / terraform validate / terrfaform apply
