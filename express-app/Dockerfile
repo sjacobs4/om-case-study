@@ -4,11 +4,10 @@ FROM node:16
  
 # Set the working directory in the container
 
-WORKDIR /app
- 
+WORKDIR /usr/src/app
 # Copy package.json and package-lock.json to the container
 
-COPY package.json package-lock.json ./
+COPY package.json ./
  
 # Install dependencies
 
@@ -24,19 +23,7 @@ EXPOSE 4567
  
 # Command to start the app
 
-CMD ["node", "app.js"]
+CMD ["node", "express.js"]
  
-version: '3.9'
- 
-services:
 
-  express-app:
-
-    build: .
-
-    ports:
-
-      - "4567:4567"
-
-    restart: always
  

@@ -1,4 +1,4 @@
-resource "local_file" "foo2" {
+resource "local_file" "foo" {
 
   content  = "foo!"
 
