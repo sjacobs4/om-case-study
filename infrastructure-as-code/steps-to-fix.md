@@ -10,6 +10,6 @@
 terraform init /
 terraform plan 
 terraform validate 
- terrfaform apply
+ terraform apply
 
 5. check and confirm if entry deleted 
